@@ -3,5 +3,5 @@ from base.models import BaseModel
 
 class Category(BaseModel):
     category_name = models.CharField(max_length=100)
-    category_description = models.TextField()
+    category_image = models.ImageField()
     cat
